@@ -9,7 +9,7 @@ module.exports = {
         filename: '[name].js'
     },
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js', '...']
     },
     devServer: {
         static: path.join(__dirname, 'dist'),
